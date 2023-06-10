@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card__player" (click)="selectPlayer()" tabindex="0" [ngClass]="{'card__player--focused': isFocused}">
+        <div class="card__image">
+            <img src={{player.img}}>
+        </div>
+        <div class="card__content">
+            <h2 class="card__title">{{player.name}}</h2>
+            <div class="card__hero">
+                <img src={{player.img}} class="card__hero-image">
+            </div>
+        </div>
+    </div>
+</div>

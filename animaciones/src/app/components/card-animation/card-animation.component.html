@@ -1,0 +1,7 @@
+<div class="container">
+    <div>
+        <app-card *ngFor="let player of players" [player]="player" (playerSelected)="selectPlayer($event)"></app-card>
+    </div>
+    <app-summary [speedValue]="selectedPlayer?.speed || 0" [shotValue]="selectedPlayer?.shot || 0"
+        [passValue]="selectedPlayer?.pass || 0"></app-summary>
+</div>
