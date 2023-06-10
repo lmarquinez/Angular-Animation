@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 12px;
+    width: 100%;
+}
+
+.main_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 36px;
+    min-height: 65vh;
+}
+
+.footer {
+    border-top: 1px solid;
+    padding: 16px 0px;
+    font-weight: 700;
+    text-align: center;
+}
